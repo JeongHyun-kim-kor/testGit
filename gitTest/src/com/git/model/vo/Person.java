@@ -5,8 +5,8 @@ public class Person {
 	private String name;
 	private int age;
 	private String address;
-	private String[] hobby;
-	private String phone;
+	private double height;
+	private double weight;
 	
 	public Person() {
 		// TODO Auto-generated constructor stub
@@ -34,21 +34,23 @@ public class Person {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	public String[] getHobby() {
-		return hobby;
-	}
-	public void setString(String[] hobby) {
-		this.hobby = hobby;
+
+	public double getHeight() {
+		return height;
 	}
 
-	public String getPhone() {
-		return phone;
+	public void setHeight(double height) {
+		this.height = height;
 	}
 
-	public void setPhone(String phone) {
-		this.phone = phone;
+	public double getWeight() {
+		return weight;
+	}
+
+	public void setWeight(double weight) {
+		this.weight = weight;
 	}
 	
-
+	
 
 }
